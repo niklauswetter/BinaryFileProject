@@ -1,1 +1,9 @@
-# BinaryFileProject
+# Databases Binary File Project
+***
+This repository contains the source code for two programming assignments from my databases class. Assignment one required me to create and search a binary file, and assignment two asked me to create an index on the same file and search it once again. More details on each section and which file you can find the source code in is included below.
+
+## Creating and Exponentially Searching a Binary File
+For this assignment I was given a CSV file that contained many records of information about solar power plants in the US and asked to create a program that output a binary file storing the given data. I had to standardize all the field lengths to ensure all records were the same length to ensure the file would be searchable later; I also included meta-data within the binary file so the reading of the file was in no way dependent on the length of any of the input fields. After my file creation code was working correctly, I wrote a second program capable of loading and searching the created file. You can find the code for file creation in Prog1A.java, and the code for reading the file in Prog1B.java; Record.java contains the code for the Record object which was used in this project. The code is well commented and explains in depth details concerning the implementation of my solution.
+
+## Linear Hashing Lite
+This assignment was given as a continuation of the last section, and uses the same binary file with the same power plant data. In the first part of the project I created another program that outputs an index file for the binary file produced in part one; this index functions by linearly hashing the records into buckets and storing this information in the index file. The second part of the project was to once again search the file but this time use the index file rather than just scanning through the records as I did in the first part. The code for the creation of the index file is contained in Prog21.java and the code for searching the file using the index is in Prog22.java. You can see the data used in both this part and the last in the file 2021-utility-scale-solar-plants.bin. 
