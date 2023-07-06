@@ -1,5 +1,4 @@
 # Databases Binary File Project
-***
 This repository contains the source code for two programming assignments from my databases class. Assignment one required me to create and search a binary file, and assignment two asked me to create an index on the same file and search it once again. More details on each section and which file you can find the source code in is included below.
 
 ## Creating and Exponentially Searching a Binary File
